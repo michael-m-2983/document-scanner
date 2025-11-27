@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+
+    overflow: clip;
+
+    object-fit: contain;
+
+    background: rgb(30, 30, 30);
+}
+
+.video-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(70, 70, 70, 0.4);
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.icon {
+    width: 1.5rem;
+    color: white;
+    cursor: pointer;
+
+    margin: 1rem;
+
+    object-fit: contain;
+}
